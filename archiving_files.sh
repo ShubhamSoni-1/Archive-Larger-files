@@ -5,7 +5,7 @@
 
 
 #variables
-BASE=/home/yuvraj/data
+BASE=Archive-Larger-files/data/           #Please provide the path of the data you want to filter 
 DAYS=10
 DEPTH=1
 RUN=0
@@ -38,22 +38,3 @@ do
 		mv $i.gz $BASE/archive || exit 1
 	fi
 done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
